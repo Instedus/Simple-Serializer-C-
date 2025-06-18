@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ConsoleApp1
 {
     [System.Serializable]
-    internal class Data
+    public class Data
     {
         public readonly string title;
 
@@ -20,6 +20,11 @@ namespace ConsoleApp1
             this.title = title;
             this.num = num;
             this.description = description;
+        }
+
+        public Data()
+        {
+            
         }
     }
 }

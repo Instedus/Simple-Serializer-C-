@@ -10,6 +10,7 @@ namespace ConsoleApp1
     {
         void Save(string path, object data);
 
+        void Save<T>(string path, T obj) where T: class;
         T Load<T>(string path);
     }
 }

@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Instedus\\source\\repos\\ConsoleApp1\\",
+  "WorkspaceRootPath": "F:\\git\\Simple-Serializer-C-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2AEAC6B3-A659-4936-A7B6-8365C6159C8B}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\instedus\\source\\repos\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2AEAC6B3-A659-4936-A7B6-8365C6159C8B}|ConsoleApp1\\ConsoleApp1.csproj|f:\\git\\simple-serializer-c-\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2AEAC6B3-A659-4936-A7B6-8365C6159C8B}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AEAC6B3-A659-4936-A7B6-8365C6159C8B}|ConsoleApp1\\ConsoleApp1.csproj|f:\\git\\simple-serializer-c-\\consoleapp1\\binaryserialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AEAC6B3-A659-4936-A7B6-8365C6159C8B}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\binaryserialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BinarySerialize.cs",
+              "DocumentMoniker": "F:\\git\\Simple-Serializer-C-\\ConsoleApp1\\BinarySerialize.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\BinarySerialize.cs",
+              "ToolTip": "F:\\git\\Simple-Serializer-C-\\ConsoleApp1\\BinarySerialize.cs",
+              "RelativeToolTip": "ConsoleApp1\\BinarySerialize.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T11:44:04.847Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Instedus\\source\\repos\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "DocumentMoniker": "F:\\git\\Simple-Serializer-C-\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
-              "ToolTip": "C:\\Users\\Instedus\\source\\repos\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "ToolTip": "F:\\git\\Simple-Serializer-C-\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-18T10:08:02.546Z",
               "EditorCaption": ""

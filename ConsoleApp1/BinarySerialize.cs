@@ -1,23 +1,54 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class JsonSerializer : ISave
+    internal class BinarySerialize : ISave
     {
         private bool disposedValue;
 
         public T Load<T>(string path)
         {
-            throw new NotImplementedException();
+            using (FileStream stream = new(path, FileMode.Open))
+            {
+                try
+                {
+                    BinaryFormatter formatter = new BinaryFormatter();
+
+                    return (T)formatter.Deserialize(stream);
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                    Console.WriteLine(e.StackTrace);
+                }
+
+                object nothing = null;
+
+                return (T)nothing;
+            }
         }
 
         public void Save(string path, object data)
         {
-            throw new NotImplementedException();
+            using (FileStream stream = new(path, FileMode.OpenOrCreate))
+            {
+                try
+                {
+                    BinaryFormatter formatter = new BinaryFormatter();
+
+                    formatter.Serialize(stream, data);
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                    Console.WriteLine(e.StackTrace);
+                }
+            }
         }
 
         protected virtual void Dispose(bool disposing)
@@ -36,7 +67,7 @@ namespace ConsoleApp1
         }
 
         // // TODO: переопределить метод завершения, только если "Dispose(bool disposing)" содержит код для освобождения неуправляемых ресурсов
-        // ~JsonSerializer()
+        // ~BinarySerializer()
         // {
         //     // Не изменяйте этот код. Разместите код очистки в методе "Dispose(bool disposing)".
         //     Dispose(disposing: false);
@@ -47,6 +78,11 @@ namespace ConsoleApp1
             // Не изменяйте этот код. Разместите код очистки в методе "Dispose(bool disposing)".
             Dispose(disposing: true);
             GC.SuppressFinalize(this);
+        }
+
+        public void Save<T>(string path, T obj) where T : class
+        {
+            throw new NotImplementedException();
         }
     }
 }

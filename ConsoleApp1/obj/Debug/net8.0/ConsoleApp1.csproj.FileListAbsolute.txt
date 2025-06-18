@@ -1,0 +1,15 @@
+F:\git\Simple-Serializer-C-\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.exe
+F:\git\Simple-Serializer-C-\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.deps.json
+F:\git\Simple-Serializer-C-\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.runtimeconfig.json
+F:\git\Simple-Serializer-C-\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.dll
+F:\git\Simple-Serializer-C-\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.pdb
+F:\git\Simple-Serializer-C-\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+F:\git\Simple-Serializer-C-\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.AssemblyInfoInputs.cache
+F:\git\Simple-Serializer-C-\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.AssemblyInfo.cs
+F:\git\Simple-Serializer-C-\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+F:\git\Simple-Serializer-C-\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.sourcelink.json
+F:\git\Simple-Serializer-C-\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.dll
+F:\git\Simple-Serializer-C-\ConsoleApp1\obj\Debug\net8.0\refint\ConsoleApp1.dll
+F:\git\Simple-Serializer-C-\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.pdb
+F:\git\Simple-Serializer-C-\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.genruntimeconfig.cache
+F:\git\Simple-Serializer-C-\ConsoleApp1\obj\Debug\net8.0\ref\ConsoleApp1.dll
